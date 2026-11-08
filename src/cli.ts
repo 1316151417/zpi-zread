@@ -137,6 +137,6 @@ export async function main(argv: string[] = process.argv.slice(2)): Promise<numb
     log.info(`\n文档预览: ${handle.url}（按 Ctrl+C 退出）`);
     return 0;
   }
-  log.info("\n预览报告: npx zpi-zread preview");
+  log.info("\n预览报告: npx @zpi-dev/zpi-zread preview");
   return 0;
 }

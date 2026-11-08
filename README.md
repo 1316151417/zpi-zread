@@ -16,10 +16,10 @@
 
 ```bash
 # 安装（Node.js >= 24）
-npx zpi-zread /path/to/your/project
+npx @zpi-dev/zpi-zread /path/to/your/project
 
 # 或本地运行
-npm i -g zpi-zread
+npm i -g @zpi-dev/zpi-zread
 zpi-zread /path/to/your/project
 ```
 
@@ -32,15 +32,15 @@ export DEEPSEEK_API_KEY="your-api-key"
 生成完成后预览报告：
 
 ```bash
-npx zpi-zread preview /path/to/your/project   # 打开浏览器
-npx zpi-zread preview --port 9000             # 指定端口
-npx zpi-zread preview --no-open               # 不自动打开浏览器
+npx @zpi-dev/zpi-zread preview /path/to/your/project   # 打开浏览器
+npx @zpi-dev/zpi-zread preview --port 9000             # 指定端口
+npx @zpi-dev/zpi-zread preview --no-open               # 不自动打开浏览器
 ```
 
 也可以生成完直接进入预览：
 
 ```bash
-npx zpi-zread /path/to/your/project --preview
+npx @zpi-dev/zpi-zread /path/to/your/project --preview
 ```
 
 ## 命令与配置
@@ -132,7 +132,7 @@ npm test          # （可选）单元测试
 | 模型配置 | lite/pro/max 三级 + settings.json | 单模型 + 思考强度（环境变量） |
 | 观测 | Langfuse（可选） | 无 |
 | 预览 | 依赖闭源 Zread CLI | 内置 `preview` 命令 |
-| 安装 | `uv sync` + 源码运行 | `npx zpi-zread` |
+| 安装 | `uv sync` + 源码运行 | `npx @zpi-dev/zpi-zread` |
 
 ## License
 

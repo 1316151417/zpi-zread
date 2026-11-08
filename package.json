@@ -1,5 +1,5 @@
 {
-  "name": "zpi-zread",
+  "name": "@zpi-dev/zpi-zread",
   "version": "0.1.0",
   "description": "AI 代码库文档生成器 — 基于 @zpi-dev/agent-sdk，一条命令把本地代码变成 Wiki 文档",
   "type": "module",
@@ -33,6 +33,13 @@
     "esbuild": "^0.27.4",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1316151417/zpi-zread.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "ai",
